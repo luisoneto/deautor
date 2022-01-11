@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.login   { 
+    background: url(../images/Login_bg@2x.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* H STYLES , BUTTONS , HR, SPANS */
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 10px;
+    font-weight: 800;
+  }
+
+  h1 {
+      
+    color: #FBB106;
+    font-family: 'Rozha One', serif;
+    font-size: 47px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  /* notificaciones fuentes */ 
+
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: black;
+    padding-top: 30px;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #ADADAD;
+  }
+
+
+  h6 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 10px;
+    color: #777777;
+    letter-spacing: 1px;
+  }
+
+  h7 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+  }
+ 
+  .reservapendiente {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+  }
+
+  .reservaspan {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: lighter;
+
+  }
+
+  .haceminutos {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 10px;
+    color: #777777;
+
+  }
+
+  .ingredientes {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #757575;
+
+  }
+
+  .comentarios {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #757575;
+    padding-top: 40px;
+    display: inline-block;
+
+  }
+
+
+  .BOTONACEPTAR {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #FF6227;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .BOTONCANCELAR {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: white;
+    color: #ADADAD;
+
+  }
+
+  .BOTONRECIBIDO {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #F7C43B;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .hrcards {
+    width: 25%;
+  }
+
+
+  .buttonshowhide {
+    margin-top: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 0 ;
+  }
+
+  .BOTONLLEGO {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #95F2BC;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .BOTONNOVINO {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    border: 1px solid #6BE29D;
+    background-color: white;
+    color: #6BE29D;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+
+
+  
+
+
+
+  /* ------------------------------------------------------------------------------*/
+
+
+ .logintext {
+     text-align: center;
+     padding-top: 150px;
+ }
+
+
+ input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+  input[type=password], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+    }
+  
+  input[type=submit] {
+    background-color: #FBB106;
+    color: white;
+    padding: 12px 20px;
+    border: 1px black;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    min-width: 20%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FBB106;
+    
+  }
+  
+  .container.form {
+    
+   
+    border-radius: 38px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    
+    max-width: 50%;
+    
+  }
+
+
+    .logo {
+      text-align: center;
+      margin-top: 150px;
+    }
+
+
+
+    /* NAVIGATION.HTML CSS */ 
+
+    /* The side navigation menu */
+
+
+   
+    
+
+    .sidebar {
+      margin-left: 10px;
+      padding: 0;
+      width: 72px;
+      background-color: #FFFFFF;
+      position: fixed;
+      height: 100%;
+      overflow: hidden;
+      text-align: center;
+      padding-top: 20px;
+      padding-left: 15px;
+      line-height: 0.2;
+      
+    }
+
+    /* Sidebar links */
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+      margin-top: 20px;
+    
+    }
+
+    /* Active/current link */
+    p:hover {
+      color: #FF6227;
+    }
+    
+    .icons:hover {
+      filter: invert(49%) sepia(83%) saturate(2945%) hue-rotate(343deg) brightness(104%) contrast(104%);
+    }
+
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    div.content {
+      margin-left: 120px;
+      
+      
+      
+    }
+
+    .dropdown {
+      display: none ;
+    }
+
+    img.logodown {
+      margin-top: 200px;
+    }
+    
+    
+    /*  @media (max-width: 991.98px) { ... }   */
+
+
+    @media screen and (max-width: 991.98px) { 
+
+
+     
+        
+      div.col-lg-7.rightmesas {
+
+        display: none;
+      }
+      
+
+        div.column.right {
+            width: 100%;
+            
+          
+        }
+        div.column.left {
+          width: 100%;
+          padding-left: 20px;
+          
+        }
+
+        img.logodown {
+          margin-top: 200px;
+        }
+      
+
+     }
+
+     /* */
+
+     @media screen and (min-width: 761px) {
+
+
+      #myDIV {
+
+        padding-left: 0px ;
+      }
+
+
+      .topnav{
+        display: none;
+      
+      }
+
+      .navmobile {
+        display: none;
+      }
+     }
+
+
+
+
+    .logonavbaru {
+      display: none;
+    }
+
+    
+
+    /* MOBILE NAV-BAR*/
+    @media screen and (max-width: 767.98px) {
+
+      
+      
+
+      div.content{
+        margin-left: 0px;
+      }
+
+      .sidebar {
+        display: none;
+        
+      }
+
+
+    .logonavbaru {
+      position: relative;
+      left: 292px;
+    }
+
+    .sidebar.logodown {
+      text-align: center;
+      margin-top: 400px;
+    }
+
+
+    /* ICON DROPDOWN NAVBAR */
+
+    .search {
+      display: block;
+      
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-top: -30px;
+      cursor: pointer;
+    }
+    
+    .burger-menu {
+      display: block;
+      margin-left: 10px;
+     
+     
+      cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 100%;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 5px 5px;
+        text-decoration: none;
+        display: block;
+        font-size: 12px;
+        display: inline-block;
+
+    }
+    
+    .dropdown-content img {
+
+      display: inline-block;
+    }
+    
+    
+    .dropdown .dropdown-content.show {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #ffffff;
+    }
+
+
+    .dropdowncontent{
+      padding: 10px 50px 10px 50px;
+      display: inline-flex;
+      margin-left: -30px;
+    }
+
+   
+
+    .dropdowncontent p {
+      display: inline;
+      margin-top: 10px;
+    }
+  
+
+  p:hover {
+   display: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    /* MEDIA QUERYS */ 
+
+
+
+    @media only screen and (max-width: 760px)  {
+
+
+      div.col-lg-7.rightmesas {
+
+        display: none;
+      }
+
+
+
+      input[type=submit] {
+        background-color: #FBB106;
+        color: white;
+        padding: 12px 20px;
+        border: 1px black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 50%;
+        
+        
+      }
+      
+      input[type=submit]:hover {
+        background-color: #FBB106;
+        
+      }
+
+      .container.form {
+        min-width: 100%;
+      }
+
+    }
+
+   .col-4.historico {
+     padding-top: 30px;
+     text-align: right;
+     
+
+   }
+
+   .historicotext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ADADAD;
+    margin-right: 20px;
+   }
+
+   .reservastext {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+
+   }
+
+   .col-4.reservas {
+     padding-top: 22px;
+     text-align: left;
+   }
+    
+   .reservas img {
+     padding-top: 5px;
+   }
+    
+
+
+   .ComandasCard {
+     margin-top: 40px;
+     border: 2px solid #FF6227;
+     border-radius: 10px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 20px;
+     background-color: #FFFFFF;
+   }
+
+
+   .botones {
+     padding-top: 40px;
+     margin-right: 10px;
+   }
+
+   .botonesreserva {
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+
+
+
+   .componenteone {
+     margin-top: -40px;
+     float: right;
+     margin-right: 20px;
+   }
+
+
+   .ComandasCardtwo {
+    margin-top: 40px;
+    border: 2px solid #F7C43B;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+  }
+
+  .componentetwo {
+    margin-top: -40px;
+    float: right;
+    margin-right: 20px;
+  }
+
+  .componentetres {
+    margin-top: 8px;
+    border: 2px solid #6BE29D;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+  }
+
+  
+  .componentetresdos {
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+  }
+
+  .componentetrestres {
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    background-color:  #F7F7F7 ;
+    
+    
+  }
+
+
+  nav {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  
+
+
+
+
+  /* INTENTO CONTENIDO DOS COLUMNAS CON WIDTH */ 
+
+  .column {
+    float: left;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 60%;
+    background-color: #F7F7F7;
+    
+  }
+  
+  .right {
+    width: 40%;
+    padding-right: 50px;
+    background-color: #F0F0F0;
+    padding-left: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .textright {
+    float: right;
+    padding-top: 30px;
+  }
+
+  .comandastext {
+    display: inline-block;
+  }
+
+  .reservastext {
+    padding-top: 20px;
+  }
+
+  .reservastext img {
+    padding-top: 10px; 
+  }
+
+
+   /*  MESAS.HTML STYLES    */
+
+
+   .col-7.rightmesas{
+
+   
+   
+    background-color: #F0F0F0;
+    
+    
+
+   }
+
+   .col-5.leftmesas{
+
+    
+    padding-top: 30px;
+    background-color: #F7F7F7;
+    
+   }
+
+   .row .mesasx {
+
+    padding-top: 40px;
+   }
+
+   .col-5.leftmesas h4 {
+     margin-left: 30px;
+     padding-top: 0px;
+   }
+   .row .mesasx h4 {
+     font-size: 24px;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+     text-transform: uppercase;
+     padding-top: 0px;
+   }
+
+   .mesashr {
+     color:  #D0D0D0;
+     border: solid 1px;
+     width: 90%;
+     
+   }
+
+   .arrowright {
+     padding-left: 15px;
+   }
+
+   .row .mesasy {
+     padding-left: 40px;
+   }
+
+  .col-8 .colochomesas {
+
+    padding-left: 70px;
+  }
+
+
+  .col-7.rightmesas button {
+    margin-top: 30px;
+  }
+
+ 
+  .cerrarmesa {
+
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #ADADAD;
+    border-radius: 20px;
+    color: white;
+    padding: 4px 16px 2px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px ;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+  }
+
+  .habilitarmesa {
+
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #6BE29D;
+    border-radius: 20px;
+    color: white;
+    padding: 4px 16px 2px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px ;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+  }
+
+  .ocupada {
+
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #EBDDB5;
+    border-radius: 20px;
+    color: #F7C43B;
+    padding: 4px 16px 2px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px ;
+    transition: 0.3s;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+ .leftmesa ul {
+
+  padding: 0px;
+ }
+
+ .leftmesa li {
+   
+  display: inline-flex;
+ 
+ }
+
+ .row .mesasdos .col-10 {
+
+  border-radius: 8px;
+  background-color: #F7F7F7;
+  margin-top: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+ .mozo {
+
+  float: left;
+  margin-left: -45px;
+  margin-top: 6px;
+  margin-right: 30px;
+ }
+
+ 

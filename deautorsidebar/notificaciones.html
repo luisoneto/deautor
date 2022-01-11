@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Notificaciones</title>
+  
+    <script>
+
+      
+$(document).ready(function(){
+$('.burger-menu').click(function(){
+  $('.dropdown-content').toggleClass('show');
+});
+$(document).click(function(event) { 
+    if(!$(event.target).closest('.burger-menu').length) {
+        if($('.dropdown-content').is(":visible")) {
+            $('.dropdown-content').toggleClass('show');
+        }
+    }        
+});
+});
+      
+    </script>
+</head>
+<body>
+   <!-- Movile Navbar -->
+  
+   <nav class="navmobile">
+    <div class="dropdown">
+        
+    <i class="fa fa-bars fa-2x burger-menu" ></i>  
+      <div class="dropdown-content">
+        <div class="dropdowncontent">
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>
+        <div class="dropdowncontent"> 
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>
+        <div class="dropdowncontent"> 
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>
+        <div class="dropdowncontent">  
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>
+        <div class="dropdowncontent">  
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>
+        <div class="dropdowncontent">  
+          <a><img src="./images/comandas (2).png"></a><p>Comandas</p></a>
+        </div>  
+      </div>
+    </div>
+    
+      <img class="logonavbaru" src="./images/logosidebar.png">
+    
+    </nav>
+   
+      
+ 
+
+
+   <!-- The sidebar -->
+  
+<div class="sidebar">
+  
+  <img class="logonavbar" src="./images/logosidebar.png">
+  <div class="icons"><a><img src="./images/comandas (2).png"></a></br><p>Comandas</p></div></a>
+  <div class="icons"><a><img src="./images/mesas.png"></a></br><p>Mesas</p></div></a>
+  <div class="icons"><a><img src="./images/reservas.png"></a></br><p>Reservas</p></div></a>
+  <div class="icons"><a><img src="./images/historico.png"></a></br><p>Historico</p></div></a>
+  <div class="icons"><a><img src="./images/menu_book-24px.png"></a></br><p>Menu</p></div></a>
+  <img class="logodown" src="./images/sidebardown.png">
+  
+</div>
+
+<!-- Page content -->
+<div class="content">
+  <div class="row" style="height:-webkit-fill-available;">
+    <div class="column left">
+      <div class="comandastext">
+        <h4>Comandas</h4>
+      </div>
+      <div class="textright">
+        <img src="./images/ic_history_24px.png">
+        <span class="historicotext">Ver historico de comandas</span>
+      </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ComandasCard">
+              <div class="componenteone"><img src="./images/componente1.png"></div>
+              <h6>NUEVA COMANDA</h6><span class="haceminutos">Hace 1'</span> </br>
+              <h7>MESA 1</h7></br> 
+              <span class="ingredientes">2x Agua s/gas</span></br>
+              <span class="ingredientes">2x Agua s/gas</span></br>
+              <span class="ingredientes">2x Agua s/gas</span></br>
+              <span class="ingredientes">2x Agua s/gas</span></br>
+              <span class="ingredientes">2x Agua s/gas</span></br>
+              <hr class="hrcard">
+              <span class="comentarios">Pueden traer primero la entrada y las bebidas?</span></br>
+              <div class="botones">
+                <button class="BOTONACEPTAR">ACEPTAR</button>
+                <button class="BOTONCANCELAR">CANCELAR</button>
+              </div>
+            </div>
+          </div>  
+          <div class="col-lg-6">
+            <div class="ComandasCardtwo">
+              <div class="componentetwo"><img src="./images/componente2.png"></div>
+              <h6>MOZO</h6><span class="haceminutos">Hace 2'</span> </br>
+              <h7>MESA 3</h7></br> 
+              <span class="ingredientes">Llama mozo a la mesa</span></br>
+              <div class="botones">
+                <button class="BOTONRECIBIDO">RECIBIDO</button>
+                <button class="BOTONCANCELAR">CANCELAR</button>
+              </div>
+            </div>
+          </div>  
+     
+    </div>
+      
+
+    </div>
+    <div class="column right">
+      <div class="reservastext">
+        <span class="reservastext">Reservas de hoy</span>
+        <img src="./images/mas.png" style="float:right ;">
+      </div>
+      <div class="boton">
+        <button class="buttonshowhide">TODAS    <svg xmlns="http://www.w3.org/2000/svg" width="10.559" height="5.987" viewBox="0 0 10.559 5.987"><path id="Trazado_30" data-name="Trazado 30" d="M1315.84,39l4.926,4.926L1325.693,39" transform="translate(-1315.487 -38.646)" fill="none" stroke="#1f1f1f" stroke-width="1"/></svg></button>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+                <div class="componentetres">  
+                  <span class="reservapendiente">RESERVA PENDIENTE</span> </br>
+                  <h7>22Hs - <span class="reservaspan">4 Comensales</span></h7></br> 
+                  <span class="ingredientes">Carolina Martinez</br>+549 112245366</span></br>
+                <div class="botonesreserva">
+                  <button class="BOTONLLEGO">LLEGÓ</button>
+                  <button class="BOTONNOVINO">NO VINO</button>
+                  <button class="BOTONCANCELAR">MÁS OPCIONES</button>
+                </div>
+                </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+                <div class="componentetresdos">  
+                  <span class="reservapendiente">RESERVA ACTIVA</span> </br>
+                  <h7>19Hs - <span class="reservaspan">2 Comensales</span></h7></br> 
+                  <span class="ingredientes">Carolina Martinez</br>+549 112245366</span></br>
+                </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+                <div class="componentetrestres">  
+                  <span class="reservapendiente">RESERVA PENDIENTE</span> </br>
+                  <h7>22Hs - <span class="reservaspan">4 Comensales</span></h7></br> 
+                  <span class="ingredientes">Carolina Martinez</br>+549 112245366</span></br>
+          </div>
+        </div>
+
+      </div>
+      
+      
+
+        
+
+
+
+      </div>
+
+    </div>
+  
+  </div>
+</div>  
+
+  <!--
+  <div class="container-fluid">
+    <div class="row">
+          <div class="col-4" style="background-color:#ffffff;">
+            <h4>Comandas</h4>
+              <div class="row">
+                <div class="col-12 ComandasCard">
+                  <div class="componenteone"><img src="./images/componente1.png"></div>
+                  <h6>NUEVA COMANDA</h6><span class="haceminutos">Hace 1'</span> </br>
+                  <h7>MESA 1</h7></br> 
+                  <span class="ingredientes">2x Agua s/gas</span></br>
+                  <span class="ingredientes">2x Agua s/gas</span></br>
+                  <span class="ingredientes">2x Agua s/gas</span></br>
+                  <span class="ingredientes">2x Agua s/gas</span></br>
+                  <span class="ingredientes">2x Agua s/gas</span></br>
+                  <hr class="hrcard">
+                  <span class="comentarios">Pueden traer primero la entrada y las bebidas?</span></br>
+                  <div class="botones">
+                    <button class="BOTONACEPTAR">ACEPTAR</button>
+                    <button class="BOTONCANCELAR">CANCELAR</button>
+                  </div>
+                </div>
+              </div>
+          </div>  
+          <div class="col-4 historico">
+            <img src="./images/ic_history_24px.png">
+            <span class="historicotext">Ver historico de comandas</span>
+            <div class="row">
+              <div class="col-12 ComandasCardtwo">
+                <div class="componentetwo"><img src="./images/componente2.png"></div>
+                <h6>MOZO</h6><span class="haceminutos">Hace 2'</span> </br>
+                <h7>MESA 3</h7></br> 
+                <span class="ingredientes">Llama mozo a la mesa</span></br>
+                <div class="botones">
+                  <button class="BOTONRECIBIDO">RECIBIDO</button>
+                  <button class="BOTONCANCELAR">CANCELAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-4 reservas" style="background-color: #F0F0F0;">
+          <span class="reservastext">Reservas de hoy</span>
+          <img src="./images/mas.png" style="float:right ;"></br>
+          <button class="buttonshowhide">TODAS    <svg xmlns="http://www.w3.org/2000/svg" width="10.559" height="5.987" viewBox="0 0 10.559 5.987"><path id="Trazado_30" data-name="Trazado 30" d="M1315.84,39l4.926,4.926L1325.693,39" transform="translate(-1315.487 -38.646)" fill="none" stroke="#1f1f1f" stroke-width="1"/></svg></button>
+        </div>
+
+
+        
+  <div class="container">
+    <div class="col-6 mesa1">
+      <h6>Nueva Comanda</h6><span>Hace 1'</span>
+    </div>
+    <div class="col-6"></div>
+  </div>
+      <div class="col-4 reservas" style="background-color: #F0F0F0;">
+        <span class="reservastext">Reservas de hoy</span>
+        <img src="./images/mas.png" style="float:right ;">
+      </div>
+    </div>
+  </div>
+
+  -->
+
+
+</body>
+</html>
+            
